@@ -1,0 +1,41 @@
+.signin {
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.form-title {
+  letter-spacing: 1px;
+  font-weight: 800;
+  position: relative;
+  top: -20px;
+  left: 20px;
+}
+.signin-form form button {
+  position: relative;
+  top: 0px;
+  left: 20px;
+}
+.signin-form form input {
+  border: none !important;
+  border-bottom: 1px solid lightgray !important;
+  padding-left: 30px;
+  outline: none;
+}
+.signin-form form i {
+  position: relative;
+  left: 20px;
+}
+.registration-img {
+  position: relative;
+  left: 100px;
+  transition: transform 450ms;
+  cursor: pointer;
+}
+.registration-img:hover {
+  transform: scale(1.02);
+}

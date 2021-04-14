@@ -1,0 +1,35 @@
+.navbar > div {
+  position: absolute;
+  left: 950px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+.header_logo {
+  object-fit: contain;
+  width: 25px;
+  position: relative;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+#header_name {
+  position: absolute;
+  left: 65px;
+  top: 10px;
+  font-size: 18px;
+}
+.navbar a {
+  margin-left: 10px;
+  text-decoration: none !important;
+}
+#navbarSupportedContent > a {
+  text-decoration: none !important;
+}
+#navbarSupportedContent > ul > li {
+  list-style: none;
+  text-decoration: none !important;
+  margin-left: 10px;
+  text-decoration: none;
+}

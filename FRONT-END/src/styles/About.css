@@ -1,0 +1,39 @@
+.container {
+  margin-top: 50px;
+  color: #000 !important;
+}
+.profile-img {
+  height: 250px;
+  width: 150px;
+}
+.row {
+  width: 700px;
+  grid-template-columns: repeat(3, 400px) !important;
+  grid-template-rows: repeat(1, 100%);
+  padding: 20px;
+}
+.profile-edit-btn {
+  width: 80px;
+  padding: 2px;
+  font-size: 14px;
+}
+.profile-work > a {
+  text-decoration: none !important;
+  line-height: 30px;
+  margin-left: 5px;
+}
+.profile-work i {
+  position: relative;
+  left: -5px;
+}
+.profile_head > ul {
+  position: relative;
+  top: 100px;
+  display: flex;
+}
+#editButton {
+  letter-spacing: 2px;
+  font-size: 11px;
+  font-weight: 500 !important;
+  font-family: "Poppins", sans-serif;
+}

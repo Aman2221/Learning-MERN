@@ -1,0 +1,51 @@
+.contact {
+  width: 100%;
+}
+.contact_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  position: relative;
+  top: -20px;
+}
+.data {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  padding: 10px;
+  padding-left: 20px;
+  height: 80px;
+  transition: transform 450ms;
+  cursor: pointer;
+}
+.data:hover {
+  transform: scale(1.05);
+}
+.contact_main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+}
+.contact_inputs {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.contact_inputs > input {
+  padding: 7px;
+}
+.messageArea {
+  height: 140px;
+  margin-top: 20px;
+  width: 1110px;
+  margin-left: 110px;
+}
+.sendMessageBtn {
+  margin-top: 20px;
+  width: 1110px;
+  margin-left: 110px;
+}
+.contact_heading {
+  margin-left: 110px;
+}

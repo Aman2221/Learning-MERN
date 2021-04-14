@@ -1,0 +1,43 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scrollbar-width: 2px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 10000;
+}
+.before {
+  content: "";
+  width: 50%;
+  height: 100vh;
+  background: #f0e4d7;
+  z-index: -99;
+}
+.after:before {
+  content: "This is a Full stack project";
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  color: #54e346;
+}
+.after {
+  content: "";
+  width: 50%;
+  height: 100vh;
+  background: #d3e0dc;
+  z-index: -99;
+}
+.home > h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 20px 6.5px rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
